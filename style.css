@@ -27,6 +27,15 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+blockquote {
+    border-left: none;
+    font-size: 23px;
+}
+
+blockquote figcaption {
+    font-size: 15.5px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -648,7 +657,9 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+blockquote,
+blockquote figcaption {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;

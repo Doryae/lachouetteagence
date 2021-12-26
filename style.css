@@ -204,7 +204,7 @@ blockquote figcaption {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel button:hover,
@@ -693,7 +693,11 @@ blockquote figcaption {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
+}
+
+.col-sm-4 strong {
+    color: white;
 }
 
 .tight-width-whitespace {
@@ -793,6 +797,7 @@ h4 {
 .keywords, #footer-link-color a {
     color: white!important;
     text-shadow: 0 1px rgba(0, 0, 0, .25);
+    margin-bottom: 20px;
 }
 .tc-white {
     color: #F3976C!important;

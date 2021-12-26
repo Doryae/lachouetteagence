@@ -294,6 +294,11 @@ blockquote figcaption {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background: rgba(0,0,0, 0.65);
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
 
 .navbar {
@@ -764,7 +769,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -782,20 +787,32 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C15415;
 }
 
+.keywords, #footer-link-color a {
+    color: white!important;
+    text-shadow: 0 1px rgba(0, 0, 0, .25);
+}
 .tc-white {
     color: #F3976C!important;
 }
 
+.tc-white-modified {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: hsl(19, 85%, 50%);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: hsl(19, 85%, 41%)!important;
     color: #FFFFFF!important;
 }
 

@@ -688,6 +688,20 @@ blockquote figcaption {
     margin-right: auto;
 }
 
+input {
+    margin-bottom: 10px;
+}
+
+input:focus:valid, input:not(:focus):valid {
+    background-color: green;
+    color: white;
+}
+
+input:focus:invalid, input:not(:focus):invalid {
+    background-color: #9B0000;
+    color: white;
+}
+
 .container {
     max-width: 1000px;
 }

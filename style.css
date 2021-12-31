@@ -172,6 +172,10 @@ blockquote figcaption {
     border-color: rgba(255, 255, 255, 1);
 }
 
+.social {
+    color: white!important;
+}
+
 .d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
@@ -688,6 +692,11 @@ blockquote figcaption {
     margin-right: auto;
 }
 
+.col-sm-3 {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 input {
     margin-bottom: 10px;
 }
@@ -834,6 +843,7 @@ h4 {
     color: white!important;
     text-shadow: 0 1px rgba(0, 0, 0, .25);
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .tc-white {
     color: #F3976C!important;

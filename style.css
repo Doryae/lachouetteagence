@@ -1,3 +1,7 @@
+*:focus {
+    border: dotted 2px black!important;
+}
+
 body {
     margin: 0;
     padding: 0;
